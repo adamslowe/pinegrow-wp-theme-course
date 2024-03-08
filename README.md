@@ -20,6 +20,8 @@ This course was previously on sale for $49, but I’m making it available for fr
 -   [WordPress Template Hierarchy on WP Shout:](https://wphierarchy.com/)
 -   [WordPress Template Hierarchy in the Theme Developer Handbook](https://developer.wordpress.org/themes/basics/template-hierarchy/)
 -   [Pinegrow 7.93 Release Notes:](https://docs.pinegrow.com/release_notes/pinegrow-web-editor-7-93/)
+-   [Max Mega Menu:](https://www.megamenu.com/)
+-   [Creating a Responsible and Accessible Navigation Menu in Pinegrow with Alpine.js:](https://youtu.be/t4ph7z3aLMk)
 
 🧭Course Navigation
 
