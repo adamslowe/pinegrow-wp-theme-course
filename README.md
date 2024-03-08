@@ -15,6 +15,8 @@ This course was previously on sale for $49, but I’m making it available for fr
 -   [Block Themes From Scratch video series:](https://www.youtube.com/playlist?list=PLbMkvFuaj0FScHxn9yubiXD_Z_iT5WUoK)
 -   [Using Pinegrow to create custom blocks:](https://youtu.be/oZRZYaLzEw4)
 -   [LocalWP:](https://localwp.com)
+-   [Pinegrow WordPress Plugin:](https://pinegrow.com/wordpress)
+-   [Theme Unit Test Data:](https://codex.wordpress.org/Theme_Unit_Test)
 
 🧭Course Navigation
 
