@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" wp-template wp-template-no-export>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>New page</title>
+        <link href="css/theme.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <section data-pg-name="Contact Info Widget">
+            <div data-empty-placeholder cms-sidebar="company-information" cms-sidebar-register cms-sidebar-name="Company Information"></div>
+        </section>
+        <section data-pg-name="Custom Post Types">
+            <div wp-post-type="employees" wp-post-type-name="Employees" wp-post-type-name-singular="Employee" wp-post-type-public="true" wp-post-type-supports="title,editor,author,thumbnail,excerpt,custom-fields,revisions,page-attributes" wp-post-type-rest="true" wp-post-type-menu-icon="dashicons-businessperson" wp-post-type-menu-position="20" wp-post-type-has-archive="true" wp-post-type-show-in-menu="true"></div>
+            <div data-empty-placeholder wp-taxonomy="departments" wp-taxonomy-name="Departments" wp-taxonomy-name-singular="Department" wp-taxonomy-hierarchical="true" wp-taxonomy-types="employees"></div>
+        </section>
+        <section data-pg-name="Shortcode Snippet">
+            <div data-empty-placeholder cms-function="code" cms-function-type="element" cms-function-code="echo do_shortcode( '[myshortcodehere]');"></div>
+        </section>
+        <section data-pg-name="oEmbed Snippet">
+            <div data-empty-placeholder cms-function="code" cms-function-type="content" cms-function-code="echo $myvideo_code = wp_oembed_get( 'https://youtube.com/videourl')"></div>
+        </section>
+    </body>
+</html>

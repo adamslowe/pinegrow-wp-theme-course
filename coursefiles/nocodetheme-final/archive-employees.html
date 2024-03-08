@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" wp-template wp-template-export-as="archive-employees.php">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>New page</title>
+        <link href="css/theme.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div wp-site-content>
+            <div class="layout__constrained layout__x-padding main__innerwrapper" cms-post="loop" cms-post-repeat=".article-card__wrapper > ul > li">
+                <div class="layout-grid__content-sidebar">
+                    <main class="content-sidebar__content" id="content">
+                        <header>
+                            <h1 cms-function="code" cms-function-type="content" cms-function-code="the_archive_title()">Page Title</h1>
+                        </header>
+                        <section class="header-content-sidebar__content" role="region" aria-label="Articles">
+                            <div class="article-card__wrapper">
+                                <ul>
+                                    <li>
+                                        <article class="article-card">
+                                            <div class="article-card__image-wrapper">
+                                                <img src="assets/images/700x500.png" cms-post-image="medium" wp-if-has-post-thumbnail>
+                                                <img src="assets/images/700x500.png" wp-if-has-post-thumbnail="!">
+                                            </div>
+                                            <div class="article-card__content-wrapper"><a href="#" cms-post-link> <h2 cms-post-title class="break-hyphenate">Article Title</h2> </a>
+                                                <div class="post-header__categories" wp-if-in-category="!Uncategorized">
+                                                    <span>Departments:&nbsp;</span>
+                                                    <a cms-tags="departments" cms-tags-display="this" cms-tags-delimiter=", ">category list</a>
+                                                </div>
+                                                <p cms-post-excerpt>Article Excerpt</p>
+                                            </div>
+                                        </article>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="pagination" cms-template-part="template-parts/pagination"> 
+</div>
+                        </section>
+                    </main>
+                    <aside class="header-content-sidebar__sidebar">
+                        <div cms-template-part="template-parts/sidebar"><span>Sidebar Template Part</span>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

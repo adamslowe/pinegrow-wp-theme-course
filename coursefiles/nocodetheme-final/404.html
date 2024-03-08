@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" wp-template wp-template-export-as="404.php">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>New page</title>
+        <link href="css/theme.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet">
+        <script>/* Pinegrow Interactions, do not remove */ (function(){try{if(!document.documentElement.hasAttribute('data-pg-ia-disabled')) { window.pgia_small_mq=typeof pgia_small_mq=='string'?pgia_small_mq:'(max-width:767px)';window.pgia_large_mq=typeof pgia_large_mq=='string'?pgia_large_mq:'(min-width:768px)';var style = document.createElement('style');var pgcss='html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}';if(document.documentElement.hasAttribute('data-pg-id') && document.documentElement.hasAttribute('data-pg-mobile')) {pgia_small_mq='(min-width:0)';pgia_large_mq='(min-width:99999px)'} pgcss+='@media ' + pgia_small_mq + '{ html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}}';pgcss+='@media ' + pgia_large_mq + '{html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}}';style.innerHTML=pgcss;document.querySelector('head').appendChild(style);}}catch(e){console&&console.log(e);}})()</script>
+    </head>
+    <body>
+        <div wp-site-content>
+            <main id="content">
+                <div class="layout__constrained layout__x-padding layout__y-padding--page main__innerwrapper">
+                    <header>
+                        <h1>404 Page Not Found</h1>
+                    </header>
+                    <div>
+                        <p>Oops! That page can&apos;t be found. Try searching for what you need.</p>
+                    </div>
+                    <div>
+                        <form class="search-form" x-show="open" x-trap.inert="open" x-transition.duration.200ms x-transition.scale.origin.top.right method="get" role="search" id="site-search-404" action="<?php echo esc_url( home_url( '/' ) ); ?>"> 
+                            <div class="search-form--inner"> 
+                                <label> <span class="screen-reader-text">Search</span> 
+                                    <input name="s" type="search" placeholder="Search..." class="search-form--input-box" x-ref="input" required="true"/> 
+                                </label>                                 
+                                <input type="submit" value="Search" class="search-form__search-button"/> 
+                            </div>                             
+                        </form>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <script src="pgia/lib/pgia.js"></script>
+    </body>
+</html>

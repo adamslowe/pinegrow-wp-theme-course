@@ -1,0 +1,91 @@
+.employee-card__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.employee-card__wrapper > ul {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    grid-template-rows: auto;
+    gap: 2rem;
+}
+
+.employee-card__wrapper > ul > li {
+    list-style-type: none;
+    display: flex;
+}
+
+.employee-card__content-wrapper {
+    margin-top: auto;
+}
+
+.employee-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.employee-card__wrapper .pagination nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.employee-card__wrapper .pagination ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0;
+}
+
+.employee-card__wrapper .pagination li {
+    list-style-type: none;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.contact-form__name-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 1rem;
+}
+
+.contact-form__email-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 1rem;
+}
+
+.contact-form__subject-wrapper {
+    flex-direction: column;
+    display: flex;
+    align-items: stretch;
+    margin-top: 1rem;
+}
+
+.contact-form__message-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 1rem;
+}
+
+.contact-form__submit-button-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+
+.contact-form__status-message--success {
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" wp-template wp-template-export-as="index.php" wp-template-define-master-page="true">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>New page</title>
+        <link href="css/theme.css" rel="stylesheet" type="text/css">
+        <link href="css/theme.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet">
+        <script>/* Pinegrow Interactions, do not remove */ (function(){try{if(!document.documentElement.hasAttribute('data-pg-ia-disabled')) { window.pgia_small_mq=typeof pgia_small_mq=='string'?pgia_small_mq:'(max-width:767px)';window.pgia_large_mq=typeof pgia_large_mq=='string'?pgia_large_mq:'(min-width:768px)';var style = document.createElement('style');var pgcss='html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}';if(document.documentElement.hasAttribute('data-pg-id') && document.documentElement.hasAttribute('data-pg-mobile')) {pgia_small_mq='(min-width:0)';pgia_large_mq='(min-width:99999px)'} pgcss+='@media ' + pgia_small_mq + '{ html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}}';pgcss+='@media ' + pgia_large_mq + '{html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}}';style.innerHTML=pgcss;document.querySelector('head').appendChild(style);}}catch(e){console&&console.log(e);}})()</script>
+    </head>
+    <body>
+        <header class="site-header" data-pg-ia-scene='{"dbg":"true","s":"onLeave","d":"0","o":"200px","pin_type":"transform","l":[{"name":"Scroll to Top Visibility","a":{"l":[{"t":"$#topBtn","l":[{"t":"set","p":0,"d":0,"l":{"autoAlpha":0}},{"t":"set","p":0.07,"d":0,"l":{"autoAlpha":1}}]}]}}]}'><a class="screen-reader-text skip-link" href="#content">Skip to content</a>
+            <div class="header__innerwrapper layout__constrained layout__x-padding">
+                <div class="header__layout-grid">
+                    <div class="header__logo-wrapper">
+                        <a href="" cms-site-link="home"><img src="assets/images/logoipsum-logo-6.png" alt="Lorem Ipsum Logo" cms-site-logo><span class="screen-reader-text">Homepage Link</span></a>
+                    </div>
+                    <div class="header__mobile-menu">
+                        <button class="header__mobile-menu--trigger mobile-menu__trigger" data-pg-ia='{"l":[{"a":{"l":[{"t":"$.header__main-menu nav","l":[{"t":"set","p":0,"d":0,"l":{"display":"flex","position":"absolute","top":4,"right":0,"backgroundColor":"var(--white)"}}]}]},"on":"mobile","trev":"true","name":"Mobile Menu Trigger"}]}'>
+                            <span class="header__mobile-menu--trigger-lines mobile-menu__trigger-lines"></span>
+                            <span class="header__mobile-menu--trigger-lines mobile-menu__trigger-lines"></span>
+                            <span class="header__mobile-menu--trigger-lines mobile-menu__trigger-lines"></span><span class="screen-reader-text">Open mobile menu</span>
+                        </button>
+                    </div>
+                    <div class="header__main-menu">
+                        <nav aria-label="main-menu">
+                            <ul class="main-menu__list" cms-menu="primary">
+                                <li>
+                                    <a href="">Item One</a>
+                                </li>
+                                <li><a href="">Item Two</a>
+                                </li>
+                                <li><a href="">Item Three</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div wp-site-content>
+            <div class="layout__constrained layout__x-padding main__innerwrapper" cms-post="loop" cms-post-repeat=".article-card__wrapper > ul > li">
+                <div class="layout-grid__content-sidebar">
+                    <main class="content-sidebar__content" id="content">
+                        <header wp-if-is-search="!">
+                            <h1 cms-function="code" cms-function-code="the_archive_title()" cms-function-type="content">Page Title</h1>
+                        </header>
+                        <header wp-if-is-search>
+                            <h1><span>Search Results For:&nbsp;</span><span wp-the-search-query wp-the-search-query-set="content">Search Terms</span></h1>
+                        </header>
+                        <section role="region" aria-label="Articles">
+                            <div class="article-card__wrapper">
+                                <ul>
+                                    <li>
+                                        <article class="article-card">
+                                            <div class="article-card__image-wrapper">
+                                                <img src="assets/images/700x500.png" cms-post-image="medium" wp-if-has-post-thumbnail>
+                                                <img src="assets/images/700x500.png" wp-if-has-post-thumbnail="!">
+                                            </div>
+                                            <div class="article-card__content-wrapper">
+                                                <a href="#" cms-post-link> <h2 cms-post-title class="break-hyphenate">Article Title</h2> </a>
+                                                <p cms-post-excerpt>Article Excerpt</p>
+                                            </div>
+                                        </article>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="pagination" cms-template-part="template-parts/pagination"> 
+</div>
+                        </section>
+                    </main>
+                    <aside class="header-content-sidebar__sidebar">
+                        <div cms-template-part="template-parts/sidebar">
+                            <span>Sidebar Template Part</span>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+        <footer class="site-footer" data-pg-collapsed>
+            <div class="footer__innerwrapper layout__constrained layout__x-padding">
+                <div class="footer__grid">
+                    <div class="footer__logo">
+                        <a href="./" cms-site-link="home"><img src="assets/images/logoipsum-logo-6-light.png" width="250px" height="auto" alt="Placeholder Logo" cms-editable="logo_light" cms-editable-type="image" cms-editable-no-register cms-editable-image-size="medium" cms-editable-if/><span class="screen-reader-text">Home Link</span></a>
+                    </div>
+                    <div class="footer__contact">
+                        <div cms-sidebar="company-information">Company Information Customizer Field</div>
+                    </div>
+                    <div class="footer__social">
+                        <div cms-template-part="template-parts/social-icons">Social Icons Template Part</div>
+                    </div>
+                    <div class="footer__copyright">
+                        <span>Copyright &copy;&nbsp;<span cms-function="current_year" cms-function-type="content">Current Year</span><span>&nbsp;<span cms-site-name>Site Name</span></span></span>
+                    </div>
+                </div>
+            </div>
+            <button id="topBtn" title="Go to top" data-pg-ia='{"l":[{"name":"Scroll to Top Btn","trg":"click","a":{"l":[{"t":"","l":[{"t":"tween","p":0,"d":0.2,"l":{"scrollTo":{"dest":0}}}]}]},"t":"$body"}]}' data-pg-ia-hide> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16"> 
+                    <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/> 
+                </svg>                 
+            </button>             
+            <!-- <script src="assets/js/back-to-top.js" wp-enqueue-script="backtoTop" wp-enqueue-script-version="1.0" wp-enqueue-script-in-footer="true"></script>-->             
+        </footer>
+        <script src="pgia/lib/pgia.js"></script>
+    </body>
+</html>
