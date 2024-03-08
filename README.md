@@ -19,6 +19,7 @@ This course was previously on sale for $49, but I’m making it available for fr
 -   [Theme Unit Test Data:](https://codex.wordpress.org/Theme_Unit_Test)
 -   [WordPress Template Hierarchy on WP Shout:](https://wphierarchy.com/)
 -   [WordPress Template Hierarchy in the Theme Developer Handbook](https://developer.wordpress.org/themes/basics/template-hierarchy/)
+-   [Pinegrow 7.93 Release Notes:](https://docs.pinegrow.com/release_notes/pinegrow-web-editor-7-93/)
 
 🧭Course Navigation
 
