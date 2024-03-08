@@ -32,6 +32,9 @@ This course was previously on sale for $49, but I’m making it available for fr
     -   1-4 — Theme Templates
     -   1-5 — Configuring Your Theme Project
 -   Module 2 - Creating the Theme Templates
+    -   2-1 — The Index Template
+    -   2-2 — Header and Footer Template Parts
+    -   2-3 — Page, Post, and 404 Templates
 -   Module 3 - Custom Post Types, Custom Fields, and Custom Blocks
 -   Module 4 - Using JavaScript libraries, making back-to-top buttons, using custom code, and more.
 
