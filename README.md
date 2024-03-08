@@ -22,6 +22,7 @@ This course was previously on sale for $49, but I’m making it available for fr
 -   [Pinegrow 7.93 Release Notes:](https://docs.pinegrow.com/release_notes/pinegrow-web-editor-7-93/)
 -   [Max Mega Menu:](https://www.megamenu.com/)
 -   [Creating a Responsible and Accessible Navigation Menu in Pinegrow with Alpine.js:](https://youtu.be/t4ph7z3aLMk)
+-   [Static vs. Dynamic WordPress Blocks and an introduction to Pinegrow’s new Hybrid Blocks:](https://youtu.be/VnKudl0livY)
 
 🧭Course Navigation
 
