@@ -23,6 +23,7 @@ This course was previously on sale for $49, but I’m making it available for fr
 -   [Max Mega Menu:](https://www.megamenu.com/)
 -   [Creating a Responsible and Accessible Navigation Menu in Pinegrow with Alpine.js:](https://youtu.be/t4ph7z3aLMk)
 -   [Static vs. Dynamic WordPress Blocks and an introduction to Pinegrow’s new Hybrid Blocks:](https://youtu.be/VnKudl0livY)
+-   [Custom theme.json boilerplate file](https://github.com/adamslowe/pinegrow-wp-theme-course/blob/main/coursefiles/custom_theme.json)
 
 🧭Course Navigation
 
